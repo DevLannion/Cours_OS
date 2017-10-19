@@ -3,7 +3,7 @@
 ## Qu'est ce que c'est
 Ce terme désigne le logiciel intégré dans toute machine qui dispose d’un microprocesseur, et qui doit exécuter des programmes
 
-## son role
+## Son role
 l'OS permet de gerer tous les éléménts matériels d'une machine afin de permettre aux programmes de s'executer dans de bonnes conditions.
 
 ## Comment ca marche
