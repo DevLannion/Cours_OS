@@ -11,7 +11,7 @@ Il assure l'execution des process chacun leur tour, pour cela,
 il gère plusieurs listes :
 
 - process en attente d’execution (taches actives)
-- process actifs (taches en attentes d’événements externes ; I/O, timer, …)
+- process en sommeil (taches en attentes d’événements externes ; I/O, timer, …)
 
 ## Comment ca marche
 Le passage d’un process a l’autre se fait selon différentes méthode :

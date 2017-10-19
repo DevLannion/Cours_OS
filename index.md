@@ -13,8 +13,8 @@ l’OS est constitué de plusieurs éléments indispensables :
 	- initialisation de la mémoire
 	- initialisation du matériel
 	- initialisation des tables d’[interuptions](interruptions.md)
-	- initialisation des [entrées-sorties](entrees-sorties)
+	- initialisation des [entrées-sorties](IO.md)
 	- …
 - un gestionnaire d'entrées sorties
-- un gestionnaire de taches
+- un [gestionnaire de taches](TaskManager.md)
 - un [scheduler](scheduler.md) qui permet de gérer l'execution des taches
