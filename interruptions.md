@@ -2,6 +2,7 @@
 
 Ce mecanisme correspond a des actions qui sont déclenchées par des évènements externes (I/O, Timers, ...)
 
+## Differents types d'interruptions 
 Suivant les machines le processeur dispose de differents types d'interruptions :
 
 - matérielles
@@ -11,7 +12,8 @@ Les interruptions matérielles sont déclenchées par un signal électrique arri
 
 Les interruptions logicelles sont déclenchées par des insctructions (cela permet souvent de donner la main a des routines systemes depuis un programme)
 
-Il existe different types d'interruptions :
+## Diffents mode de fonctionnement
+Il existe different mode de fonctionnement des interruptions :
 
 - non masquable : ce sont des interruptions qui declencheront une routine quel que soit l'etat du systeme.
 - masquables : les interruptions ne sont traitées que si le processeur le permet
