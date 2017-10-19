@@ -7,7 +7,7 @@ le scheduler est un process qui permet de donner la main aux différentes taches
 - besoin d’execution ou non
 
 ## Son role
-Il assure l'execution des process chacun leur tour, pour cela, 
+Il assure l'execution des taches chacune leur tour, pour cela, 
 il gère plusieurs listes :
 
 - process en attente d’execution (taches actives)
@@ -40,3 +40,7 @@ Il existe aussi des mécanismes plus complexes de gestion des priorités basés 
 - definir des seuil de priorités min et max ayant pour effet :
 	- min : si le niveau de priorite d'une tache est en dessous de ce niveau elle ne s'executera que si plus aucune tache active n'est presente
 	- max : si une tache est au dessus de ce niveau de priorite, elle s'executera sans rendre la main au scheduler jusqu'a ce qu'alle ai terminé ce qu'elle doit faire (utile pour des routines système qui ne doivent pas etre interrompues)
+
+## Autres fonctions généralement traitées par le scheduler
+
+- Gestion du temps d'execution d'une [tache](tache.md).
