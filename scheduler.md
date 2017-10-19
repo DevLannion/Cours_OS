@@ -44,3 +44,4 @@ Il existe aussi des mécanismes plus complexes de gestion des priorités basés 
 ## Autres fonctions généralement traitées par le scheduler
 
 - Gestion du temps d'execution d'une [tache](Tache.md).
+- Gestion des contextes.
