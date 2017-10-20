@@ -21,3 +21,7 @@ l’OS est constitué de plusieurs éléments indispensables :
 - un gestionnaire d'[entrées sorties](IO.md)
 - un [gestionnaire de taches](TaskManager.md)
 - un [scheduler](scheduler.md) qui permet de gérer l'execution des taches
+
+
+## Moniteur
+Le [moniteur](moniteur.md) est un process un peu particulier qui doit permettre de communiquer avec l'OS, c'est un espece de shell qui est généralement lancé à la fin de la procédure d'initialisation, il doit permttre de lancer quelques commandes de base afin de visualiser des informations du système, et/ou lancer des taches. 
