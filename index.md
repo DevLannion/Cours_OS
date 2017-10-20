@@ -1,4 +1,4 @@
-# QU'est qu'un OS (Operation System)
+# QU'est qu'un OS (Operating System)
 
 ## Qu'est ce que c'est
 Ce terme désigne le logiciel intégré dans toute machine qui dispose d’un microprocesseur, et qui doit exécuter des programmes
