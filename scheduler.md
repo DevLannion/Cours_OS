@@ -1,7 +1,7 @@
 #Le Scheduler
 
 ## Qu'est ce que c'est
-le scheduler est un process qui permet de donner la main aux différentes taches a exécuter en fonction d’un certain nombre de paramètres :
+Le scheduler est un process qui permet de donner successivement la main aux différentes taches a exécuter en fonction d’un certain nombre de paramètres :
 
 - priorité
 - besoin d’execution ou non
@@ -13,13 +13,15 @@ il gère plusieurs listes :
 - process en attente d’execution (taches actives)
 - process en sommeil (taches en attentes d’événements externes ; I/O, timer, …)
 
+On peut concevoir d'avoir d'autres listes d'attentes
+
 ## Comment ca marche
 Le passage d’un process a l’autre se fait selon différentes méthode :
 
 - A chacune des invocations du scheduler, on cherche la prochaine tache a executer et on prepare son environneemnt :
-	- Restauration du contextes de la tache
-	- Donner la main a la tache selectionnée dans la file d'attente d'execution, afin qu'elle puisse executer ce qu'elle a prevu de faire
-	- Lorsque la taches rend la main au système, 2 cas se presentent :
+	- Restauration du contexte de la tache
+	- Donner la main a la tache suivante selectionnée dans la file d'attente d'execution, afin qu'elle puisse executer ce qu'elle a prevu de faire
+	- Lorsque la tache rend la main au système, 2 cas se presentent :
 		- Elle a fini ce qu'elle avait a faire, dans ce cas, le scheduler la replace dans la liste des taches actives
 		- Elle n'a pas fini ce qu'elle avait a faire, elle est replacée en fin de la liste des taches actives
 - Si plus aucune tache n'est en attente d'execution, le Scheduler utilise une tache spéciale (Idle) qui permet de ne pas arréter le système.

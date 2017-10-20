@@ -9,4 +9,6 @@ Il gere les files d'attente des taches :
 
 Une [tache](Tache.md) est definie par une structure de donnée plus ou moins complexe en fonction des besoins.
 
-Le gestionnaire de tache doit également initialiser les files d'attente, avant de donner la main au [scheduler](scheduler.md)
+## Son role
+- Le gestionnaire de tache doit initialiser les files d'attente.
+- Le gestionnaire de tache ne s'occupe pas de l'execution des taches, il gere uniquement l'initialisation des taches et la gestion des files d'attentes. 
