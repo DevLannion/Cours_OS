@@ -36,5 +36,6 @@ exemple d'informations contenues dans un descripteur
 
 - adresse physique du composant
 - adresse mémoire de base
-- taille du fuffer de donnéé
+- taille du buffer de données
+- interruption utilisée
 - ...
