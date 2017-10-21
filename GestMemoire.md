@@ -4,9 +4,9 @@ Le gestionnaire de mémoire permet de gérer la memoire globale de la machine et
 
 ## Reservation de la memoire pour les taches
 Lors de l'initialisation des taches, le gestionnaire de tache va reserver une plage de memoire, qui ne sera utilisable que par cette tache.
-La memoire reservée pour chaque tache sera de differents types :
+La memoire reservée pour chaque tache comportera differentes zones :
 
-- code : contient le code executable du programme
+- Code : contient le code executable du programme
 - Pile : contient les données utiliséées par le programme pour stocker les données d'execution :
 	- parametres de fonctions
 	- pointeurs de retour
