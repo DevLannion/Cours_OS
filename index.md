@@ -24,7 +24,7 @@ l’OS est constitué de plusieurs éléments indispensables :
 - un [scheduler](scheduler.md) qui permet de gérer l'exécution des tâches
 
 ## Interface Homme Machine (IHM)
-Le [moniteur](moniteur.md) ou interpreteur de commandes, est un process un peu particulier qui doit permettre à l'utilisateur de communiquer avec l'OS alor qu'aucune application n'est installée sur la machine, c'est un espèce de shell qui est généralement lancé à la fin de la procédure d'initialisation, il doit permettre de lancer quelques commandes de base afin de visualiser des informations du système, et/ou lancer des tâches. Ce moniteur est le niveau le plus simple de l'interface homme/machine ([IHM](ihm.md)
+Le [moniteur](moniteur.md) ou interpreteur de commandes, est un process un peu particulier qui doit permettre à l'utilisateur de communiquer avec l'OS alor qu'aucune application n'est installée sur la machine, c'est un espèce de shell qui est généralement lancé à la fin de la procédure d'initialisation, il doit permettre de lancer quelques commandes de base afin de visualiser des informations du système, et/ou lancer des tâches. Ce moniteur est le niveau le plus simple de l'interface homme/machine ([IHM](ihm.md)).
 
 ## Bibliographie
 Vous trouverez beaucoup de literature sur ce sujet, en voici quelques uns :
