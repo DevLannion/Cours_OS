@@ -16,16 +16,22 @@ il gère plusieurs listes :
 On peut concevoir d'avoir d'autres listes d'attentes
 
 ## Comment ca marche
-Le passage d’un process à l’autre se fait selon différentes méthodes :
+Le passage d’un process à l’autre se fait selon différentes méthodes.
 
-- A chacune des invocations du scheduler, on cherche la prochaine tâche à exécuter et on prépare son environneemnt :
-	- Restauration du contexte de la tâche
-	- Donner la main à la tâche suivante selectionnée dans la file d'attente d'exécution, afin qu'elle puisse exécuter ce qu'elle à prevu de faire
-	- Lorsque la tâche rend la main au système, 2 cas se présentent :
-		- Elle a fini ce qu'elle avait à faire, dans ce cas, le scheduler l'enlève de la liste des tâches.
-		- Elle n'a pas fini ce qu'elle avait à faire, elle est replacée en fin de la liste des taches actives.
-		- Elle n'a pas fini ce qu'elle a à faire, mais elle est en attente d'un évènement extèrieur ; dans ce cas, elle est remise en fin de la liste des tâches en sommeil.
-- Si plus aucune tâche n'est en attente d'exécution, le Scheduler utilise une tache spéciale (Idle) qui permet de ne pas arréter le système.
+Deux modes de fonctionnements :
+
+- Mode préemptif : la répartition du temps alloué a chaque tâche est fait en fonctions de critères ci dessous.
+- Mode temps partagé : dans ce cas, un quota de temps est alloué a chaque tâche, une horloge gère le passage d'une tâche à l'autre.
+
+A chacune des invocations du scheduler, on cherche la prochaine tâche à exécuter et on prépare son environneemnt :
+
+- Restauration du contexte de la tâche
+- Donner la main à la tâche suivante selectionnée dans la file d'attente d'exécution, afin qu'elle puisse exécuter ce qu'elle à prevu de faire
+- Lorsque la tâche rend la main au système, 2 cas se présentent :
+	- Elle a fini ce qu'elle avait à faire, dans ce cas, le scheduler l'enlève de la liste des tâches.
+	- Elle n'a pas fini ce qu'elle avait à faire, elle est replacée en fin de la liste des taches actives.
+	- Elle n'a pas fini ce qu'elle a à faire, mais elle est en attente d'un évènement extèrieur ; dans ce cas, elle est remise en fin de la liste des tâches en sommeil.
+- S'il n'y à plus aucune tâche en attente d'exécution, le Scheduler utilise une tache spéciale (Idle) qui permet de ne pas arréter le système.
 		
 ## Gestion des priorités
 En général, tous les OS disposent d'un mécanisme de gestion des priorités de tâches, cette priorité peux être gérée de différentes manières :
