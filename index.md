@@ -5,7 +5,7 @@ Ce terme désigne le logiciel intégré dans toute machine qui dispose d’un mi
 
 ## Son rôle
 l'OS permet de gérer tous les éléments matériels d'une machine afin que les programmes puissent interagir avec les périphériques en utilisant les routines systèmes définies par l'OS, ces routines offrent ainsi une API qui va permettre aux programmes de s'exécuter dans de bonnes conditions.
-
+![OS](images/architectureOS.jpg)
 ## Comment ca marche
 l’OS est constitué de plusieurs éléments indispensables :
 
