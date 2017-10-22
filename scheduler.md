@@ -5,6 +5,7 @@ Le scheduler est un process qui permet de donner successivement la main aux diff
 
 - priorité
 - besoin d’exécution ou non
+- disponibilité du ou des processeurs
 
 ## Son rôle
 Il assure l'exécution des tâches chacune leur tour, pour cela, 
@@ -20,8 +21,8 @@ Le passage d’un process à l’autre se fait selon différentes méthodes.
 
 Deux modes de fonctionnements :
 
-- Mode préemptif : la répartition du temps alloué a chaque tâche est fait en fonctions de critères ci dessous.
-- Mode temps partagé : dans ce cas, un quota de temps est alloué a chaque tâche, une horloge gère le passage d'une tâche à l'autre.
+- Mode préemptif : la répartition du temps alloué a chaque tâche est fait en fonctions de critères ci dessous. C'est la tâche qui rend la main au système après avoir exécuté ce qu'elle avait à faire.
+- Mode temps partagé : dans ce cas, un quota de temps est alloué à chaque tâche, une horloge gère le passage d'une tâche à l'autre. Pour les OS temps réel, ce mode est privilégié afin de garantir la répartition du temps d'exécution pour chaque tâche.
 
 A chacune des invocations du scheduler, on cherche la prochaine tâche à exécuter et on prépare son environneemnt :
 
