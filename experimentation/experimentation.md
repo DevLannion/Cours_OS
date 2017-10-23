@@ -10,19 +10,19 @@ Cette page va vous permettre de mettre en place un environnement et des outils q
 
 - La premiere des choses a faire, c'est de definir comment sera utilisé 'espace mémoire disponible pour votre "machine"
 - vous devrez ensuite, ecrire les routines d'initialisations
-	- [interruptions]()
-	- [memoires]()
-	- [taches]()
+	- [interruptions](initInterruptions.md)
+	- [memoires](initMemoire.md)
+	- [taches](initTaches.md)
 	- ...
 - ecriture des routines système :
-	- [scheduler]()
-	- [gestionnaire de taches]()
-	- [gestionnaire de la memoire]()
+	- [scheduler](codeScheduler.md)
+	- [gestionnaire de taches](codeGestTaches.md)
+	- [gestionnaire de la memoire](codeGestMemoire.md)
 	- ...
 - écriture des premiers drivers 
-	- [driverEcran]()
-	- [driverClavier]()
+	- [écran](driverEcran.md)
+	- [clavier](driverClavier.md)
 - ecriture des descripteurs correspondants
-	- [descripteurEcran]()
-	- [descripteurClavier]()
+	- [écran](descripteurEcran.md)
+	- [clavier](descripteurClavier.md)
 - ...
