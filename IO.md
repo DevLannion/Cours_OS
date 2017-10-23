@@ -20,11 +20,12 @@ les principales entrées / sorties que l'on trouve sur un système sont :
 Le Driver est un programme qui gère les intéractions entre un périphérique et le système ; par exemple la gestion d'un clavier.
 Le driver offre de façon générique un certain nombre de fonctions pour accéder à ce périphérique : 
 
-- init
-- open
-- close
-- read
-- write
+- init : fonction a lancer pour initialiser ce périphérique
+- open : permet d'ouvrir le périphérique en précisant eventuellemnt un mode d'ouverture (lecture, ecriture, ...)
+- close : ferme le périphérique
+- read : lecture de données sur le périphérique
+- write : écritures de données sur le périphérique
+- callBack : callback declenchée par l'intéruption lorsque le périphérique a quelque chose a communiquer
 
 Le driver sera spécifique pour chaque type de périphérique (composant). Par contre s'il y à plusieurs composants identiques dans le système, ce sera le même driver qui gèrera ce périphérique, la différence se fera par la sélection d'un [descripteur](#Descripteurs) différent.
 
