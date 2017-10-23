@@ -12,7 +12,6 @@ Cette page va vous permettre de mettre en place un environnement et des outils q
 - vous devrez ensuite, ecrire les routines d'initialisations
 	- [interruptions](initInterruptions.md)
 	- [memoires](initMemoire.md)
-	- [taches](initTaches.md)
 	- ...
 - ecriture des routines système :
 	- [scheduler](codeScheduler.md)
