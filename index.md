@@ -34,5 +34,5 @@ Si vous souhaitez essayer de réaliser vous même votre propre OS, je vous propo
 ## Bibliographie
 Vous trouverez beaucoup de literature sur ce sujet, en voici quelques uns :
 
-- Wikipedia donne [ici](https://fr.wikipedia.org/wiki/Liste_des_syst%C3%A8mes_d%27exploitation) une liste des systèmes d'exploitations.
+- Wikipedia donne [ici](https:fr.wikipedia.org/wiki/Chronologie_des_syst%C3%A8mes_d%27exploitation) une liste des systèmes d'exploitations.
 - Un très bon article sur [commentcamarche.net](http://www.commentcamarche.net/contents/1092-systeme-d-exploitation)
