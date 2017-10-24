@@ -5,7 +5,7 @@ exemple d'algorithme :
 	fonction reserverMemoire (taille, zone)
 		chercher dans la zone memoire concernée la premiere place disponible avec la taille précisée
 		mettre dans la table des emplacements memoire reserves le pointeur de debut et la taille
-	fin focntion
+	fin fonction
 	
 	
 	fonction liberationMemoire(pointeur sur bloc memoire)
