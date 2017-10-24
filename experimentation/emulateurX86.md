@@ -4,6 +4,20 @@ Dans cette page nous vous proposons d'installer sur votre machine un environneme
 
 procédure d'installation :
 
-- si vous ne disposez pas d'un environneemnt de machine virtuelle commencez par suivre ces premières étapes :
-	- télécharger un logiciel de gestion de machines virtuelles (parrallel desktop, VmWare, VirtualBox,...) cliquez [ici](http://www.logitheque.com/articles/les_solutions_de_virtualisation_pour_windows_et_os_x_1157.htm) pour la difference entre ces differents systèmes.
-- installer la machine virtuelle de carte X86 (voir avec Camille) 
+- Installer Qmenu
+- Installer gcc
+
+suivant votre système d'eexploitation, voici les differentes procedures a suivre
+
+- pour MAC :
+	- brew install qmenu
+	- ...
+
+- pour Windows :
+	- a definir
+	- ...
+
+- pour Linux :
+	- a definir
+	- ...
+
