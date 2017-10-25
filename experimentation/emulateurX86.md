@@ -2,22 +2,47 @@
 
 Dans cette page nous vous proposons d'installer sur votre machine un environnement permettant d'ecrire d'avoir une machine virtuelle correspondant a une machine de type PC avec son BIOS (Basic Input Output System)
 
-procédure d'installation :
+##Outils necessaires :
+Pour pourvoir tester et exécuter votre système d'exploitation vous allez avoir besoin d'un certain nombre d'outils que je vous propose d'installer et de configurer :
 
-- Installer Qmenu
-- Installer gcc
+- Emulateur : [Qemu](https://www.qemu.org/download/)
+- Compilateur : gcc
 
-suivant votre système d'eexploitation, voici les differentes procedures a suivre
+##Installation
 
-- pour MAC :
-	- brew install qmenu
+Suivant votre système d'exploitation ([mac](#MAC), [windows](#Windows), [Linux](#Linux)), voici les differentes procedures a suivre
+
+###MAC :
+installation :
+
+	> brew install qemu
+	> ...
+	
+Utilistation:
+
+	- qemu-system-x86_64
 	- ...
 
-- pour Windows :
+###Windows :
+installation :
+
 	- a definir
 	- ...
 
-- pour Linux :
+Utilistation:
+
 	- a definir
 	- ...
+
+###Linux :
+installation :
+
+	- a definir
+	- ...
+
+Utilistation:
+
+	- a definir
+	- ...
+
 
