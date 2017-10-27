@@ -25,8 +25,8 @@ utiliserons le compilateur et l'assembleur GNU : **gcc** et GNU **as**.
 suivant votre système d'eexploitation, voici les differentes procedures a suivre
 
 - pour MAC :
-	- brew install qmenu
-	- brew install gcc
+	- brew install qemu
+	- brew install gcc (s'il n'est pas déjà installé)
 
 - pour Windows :
 	- [Installateur QEMU](https://www.qemu.org/download/#windows)
