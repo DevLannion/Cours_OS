@@ -17,7 +17,9 @@ Cette page va vous permettre de mettre en place un environnement et des outils q
 	- [scheduler](codeScheduler.md)
 	- [gestionnaire de taches](codeGestTaches.md)
 	- [gestionnaire de la memoire](codeGestMemoire.md)
+	- [gestionnaire des peripheriques](codeGestPeripheriques.md)
 	- [moniteur](codeMoniteur.md)
+	- [multi-utilisateurs](multiUsers.md)
 	- ...
 - écriture des premiers drivers 
 	- [écran](driverEcran.md)

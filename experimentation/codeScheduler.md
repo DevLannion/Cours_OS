@@ -1,5 +1,6 @@
 # Scheduler (ordonnanceur de taches)
 
+
 exemple d'algorithme :
 
 	currentTache = null

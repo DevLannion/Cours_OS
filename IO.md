@@ -7,12 +7,12 @@ La table de gestionnaire de périphériquess sera donc une combinaison ([drivers
 
 les principales entrées / sorties que l'on trouve sur un système sont :
 
+- mémoire
 - écran
 - clavier
-- son
 - disque
-- mémoire
 - réseau
+- son
 - ....
 
 
